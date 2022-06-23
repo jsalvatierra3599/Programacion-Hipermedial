@@ -9,7 +9,7 @@ class Alien:
 
     def draw(self):
         pygame.draw.rect( self.game.screen, (81, 43, 88), pygame.Rect(self.x, self.y, self.size, self.size) )
-        self.y += 0.05
+        self.y += 0.00
 
     def checkCollision(self, game):
         for ray in game.rays:
